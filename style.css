@@ -1,0 +1,212 @@
+header {
+    display: flex;
+    height: 100px;
+
+    justify-content: space-between;
+    background-color: rgb(0, 255, 21);
+    border-radius: 5px;
+    align-items: center;
+    text-shadow: 1px 1px 1px rgb(236, 60, 6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.logo {
+    display: flex;
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+}
+.logo-jpg { 
+    height: 100px;
+}
+nav a {
+    display: flex;
+    
+    font-family: "sans-serif";
+    font-size: 12px;
+    align-items: center;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: rgb(245, 7, 67);
+}
+
+
+#titulouno {
+    padding-top: 100px;
+    color:rgb(2, 165, 43);
+    font-family: Impact;
+    
+    text-align:center;
+    text-shadow: 3px 3px 3px rgb(10, 10, 10);
+    font-size: 40px;
+    min-height: 10px;
+}
+
+#titulodos {
+    color:rgb(8, 8, 8);
+    min-height: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: center;
+}
+#titulotres {
+    color:rgb(105, 29, 247);
+    min-height: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center; 
+}
+#titulocuatro {
+    color:rgb(250, 6, 6);
+    min-height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align:center; 
+}
+#tituloquinto {
+    color:rgb(250, 6, 6);
+    min-height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align:center; 
+}
+#tituloseis {
+    color:rgb(250, 6, 6);
+    min-height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align:center; 
+}
+#titulosiete {
+    color:rgb(250, 6, 6);
+    min-height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align:center; 
+}
+
+#cuadrouno { 
+    color: rgb(247, 242, 242);
+    height: 250px;
+
+    background: rgba(39, 39, 36, 0.973) url("sendero-001.mp4") repeat-y right top;
+    background: rgba(39, 39, 36, 0.973) url("sendero-002.JPG") repeat-y center top;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    border-style: solid;
+    border-color: rgb(18, 18, 19);
+    border-radius: 5px;
+    border-width: 5px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+}
+
+.contenedor {
+    display: flex;
+
+}
+
+.videoUno { 
+    padding-top: 20px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+#cuadrodos { 
+    color: rgb(247, 242, 242);
+    height: 250px;
+
+    background: rgba(39, 39, 36, 0.973) url("sendero-001.mp4") repeat-y right top;
+    background: rgba(39, 39, 36, 0.973) url("sendero-002.JPG") repeat-y center top;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    border-style: solid;
+    border-color: rgb(18, 18, 19);
+    border-radius: 5px;
+    border-width: 5px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+}
+.imagenUno {
+    padding-top: 20px;
+    width: 180px;
+    margin-left: 40px;
+
+
+}
+
+#cuadrotres { 
+    color: rgb(247, 242, 242);
+    height: 250px;
+
+    background: rgba(39, 39, 36, 0.973) url("sendero-001.mp4") repeat-y right top;
+    background: rgba(39, 39, 36, 0.973) url("sendero-002.JPG") repeat-y center top;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    border-style: solid;
+    border-color: rgb(18, 18, 19);
+    border-radius: 5px;
+    border-width: 5px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+}
+.imagenUno {
+    padding-top: 20px;
+    width: 180px;
+    margin-left: 40px;
+}
+
+#cuadroCuatro { 
+    color: rgb(247, 242, 242);
+    height: 250px;
+
+    background: rgba(39, 39, 36, 0.973) url("sendero-001.mp4") repeat-y right top;
+    background: rgba(39, 39, 36, 0.973) url("sendero-002.JPG") repeat-y center top;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    border-style: solid;
+    border-color: rgb(18, 18, 19);
+    border-radius: 5px;
+    border-width: 5px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+}
+.imagenUno {
+    padding-top: 20px;
+    width: 180px;
+    margin-left: 40px;
+}
+
+#cuadroCinco { 
+    color: rgb(14, 13, 13);
+    height: 120px;
+
+    background: rgba(11, 243, 61, 0.973) url("sendero-001.mp4") repeat-y right top;
+    background: rgba(82, 235, 11, 0.973) url("sendero-002.JPG") repeat-y center top;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    border-style: solid;
+    border-color: rgb(18, 18, 19);
+    border-radius: 5px;
+    border-width: 5px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+}
